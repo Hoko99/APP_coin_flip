@@ -1,0 +1,182 @@
+  body {
+    padding: 30px;
+    background-color: #C8EEFF;
+  }
+  button {
+    position: absolute;
+    z-index: 10;
+  }
+
+  #result {
+    display: flex;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    background-color: white;
+    width: 85%;
+    height: 75px;
+  }
+
+#virginImage {
+    background-image: url('assets/panna_cropped_2.png');
+    background-size: 60px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; /* Vycentrování obrázku */
+    margin-left: 8px;
+    margin-right: 5px;
+    transform: rotateY(180deg);
+}
+#eagleImage {
+    background-image: url('assets/orel_cropped_2.png');
+    background-size: 60px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; /* Vycentrování obrázku */
+    margin-left: 5px;
+    margin-right: 8px;
+}
+#virginCount {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto; /* Vycentrování textu */
+    margin-left: 0;
+    margin-right: 0;
+}
+#eagleCount {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto; /* Vycentrování textu */
+    margin-left: 0;
+    margin-right: 0;
+}
+#resultText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto; /* Vycentrování textu */
+}
+#coinBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute; /* Nastavení relativní pozice pro rodičovský kontejner */
+    margin: auto; /* Vycentrování kontejneru */
+}
+.circle, .shadow {
+    margin: auto;
+    position: absolute; /* Nastavení fixní pozice pro kruh */
+    width: 150px; /* Přizpůsobení velikosti rodiči */
+    height: 150px; /* Přizpůsobení velikosti rodiči */
+    border-radius: 50%; /* Zajištění kruhového tvaru */
+    padding: 0;
+}
+.circle {
+    background-color: rgb(228, 178, 41);
+    background-size: cover;
+    background-image: url('assets/orel_cropped_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shadow {
+    visibility: hidden; /* Skrytí stínu */
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -1px 0px 10px rgb(0, 0, 0);
+    opacity: 70%;
+    z-index: -1; /* Zajištění, že stín bude pod kruhem */
+}
+#flipButton {
+      width: 85%;
+      height: 100px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 30px;
+      margin: auto;
+      border-radius: 100px;
+      background-color: white;
+      border-style: hidden;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      font-family: 'Roboto', sans-serif;
+      font-size: 38px;
+      font-weight: 600;
+}
+
+@media only screen and (min-width: 700px) {
+
+#result {
+  width: 650px;
+  height: 150px;
+}
+#virginImage {
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#eagleImage {
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#virginCount {
+  font-size: 48px;
+}
+#eagleCount {
+  font-size: 48px;
+}
+#resultText {
+  font-size: 48px;
+}
+.circle, .shadow {
+    width: 150px; /* Přizpůsobení velikosti rodiči */
+    height: 150px; /* Přizpůsobení velikosti rodiči */
+}
+    #flipButton {
+      width: 350px;
+      height: 150px;
+      font-size: 96px;
+      font-weight: 600;
+    }
+  }
