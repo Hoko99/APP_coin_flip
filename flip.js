@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const flipButton = document.getElementById("flipButton");
   const checkButton = document.getElementById("checkButton");
   const images = [
-      'assets/orel_cropped_2.png', // Obrázek pro "Orel"
-      'assets/panna_cropped_2.png' // Obrázek pro "Panna"
+      'assets/orel_cropped_2-min.png', // Obrázek pro "Orel"
+      'assets/panna_cropped_2-min.png' // Obrázek pro "Panna"
   ];
 
   let angle = 0;

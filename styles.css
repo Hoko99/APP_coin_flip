@@ -22,7 +22,7 @@
   }
 
 #virginImage {
-    background-image: url('assets/panna_cropped_2.png');
+    background-image: url('assets/panna_cropped_2-min.png');
     background-size: 60px 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
     transform: rotateY(180deg);
 }
 #eagleImage {
-    background-image: url('assets/orel_cropped_2.png');
+    background-image: url('assets/orel_cropped_2-min.png');
     background-size: 60px 60px;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@
 .circle {
     background-color: rgb(228, 178, 41);
     background-size: cover;
-    background-image: url('assets/orel_cropped_2.png');
+    background-image: url('assets/orel_cropped_2-min.png');
     background-position: center;
     background-repeat: no-repeat;
 }
